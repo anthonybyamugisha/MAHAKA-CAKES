@@ -611,6 +611,12 @@ p { color: var(--brown-soft); }
 .prose li { margin-bottom: 8px; }
 .prose strong { color: var(--brown); }
 
+/* A single, readable column of text with no picture beside it */
+.story-block {
+  max-width: 74ch;
+  margin: 0 auto;
+}
+
 /* ---------- 14. Ordering steps ---------- */
 .steps {
   display: grid;

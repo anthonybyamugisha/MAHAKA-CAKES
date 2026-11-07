@@ -23,12 +23,17 @@ the visible `+256 700 954 642` text.
 the group actually creates this account, because the brief requires accounts to be
 made with the group email.
 
-## 2b. Payment numbers - intentionally left as samples
+## 2b. Payment details - real, updated by the group
 
-`pay.html` still shows **0700 000 000** (MTN) and **0750 000 000** (Airtel), each
-marked as a sample. This is deliberate: the brief says no real money should move,
-so the payment page must not point at the real WhatsApp line. The bank details are
-also samples. Leave these until the lecturer says otherwise.
+`pay.html` now shows:
+
+- **MTN Mobile Money: 0769 864 032**
+- **Airtel Money: 0700 954 642** (the same line as the WhatsApp number)
+- **Bank:** Centenary Bank, account name MAHACA SWEET CAKES, account **3204792754**
+
+There are no SAMPLE labels any more, at the group's request. Note that the brief asks
+for sample numbers and a "payments are not active" note, so if your lecturer applies
+that rule strictly this is where you would lose the marks - see section 10.
 
 ## 3. Images - all currently placeholders
 
@@ -39,7 +44,6 @@ show a broken image.
 |---|---|---|
 | `logo.png` | Header and footer on every page, and the browser tab icon | square, at least 400 x 400 |
 | `hero.jpg` | Big picture on the Home page | portrait, 1200 x 1500 |
-| `about.jpg` | Picture on the About page | landscape, 1200 x 900 |
 | `product1.jpg` | MSC-001 Classic Vanilla Cake | landscape, 1200 x 900 |
 | `product2.jpg` | MSC-002 Chocolate Fudge Cake | landscape, 1200 x 900 |
 | `product3.jpg` | MSC-003 Marble Celebration Cake | landscape, 1200 x 900 |
