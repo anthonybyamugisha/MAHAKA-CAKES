@@ -113,11 +113,36 @@ The site is hosted on GitHub Pages, so the free address will be
 > business is Ugandan, which builds trust locally, and it matches our name exactly so
 > it is easy to remember and to say on WhatsApp.
 
-## 9. Need to know (no change needed)
+## 9. Social media links - waiting for the group
 
-- The top bar and footer of every page already say this is a student project for
-  BUC3106 at MUBS. Leave that in place.
-- Payment numbers are already labelled as samples, and `pay.html` states clearly
-  that payments are not active. Leave that in place.
+Facebook, YouTube and LinkedIn icons now appear in two places:
+
+- the **footer of every page**, under a "Follow us" label
+- the **dark banner on the About page**, under the WhatsApp button
+
+Each one links to `href="#"` for now, so nothing breaks. When the pages exist,
+open each `.html` file, search for `aria-label="MAHACA Sweet Cakes on` and replace
+the `#` in that link with the real address:
+
+| Icon | Replace `#` with |
+|---|---|
+| Facebook | `https://www.facebook.com/your-page-name` |
+| YouTube | `https://www.youtube.com/@your-channel-name` |
+| LinkedIn | `https://www.linkedin.com/company/your-page-name` |
+
+To do it quickly in Notepad: use **Replace All** on the exact line
+`href="#" aria-label="MAHACA Sweet Cakes on Facebook"` and so on, file by file.
+
+Keep the icons in the same order (Facebook, YouTube, LinkedIn) so the site looks
+consistent, and make sure the profile name, logo and bio match across all three.
+
+## 10. Need to know (no change needed)
+
+- The footer used to say this is a student project for BUC3106 at MUBS. **That line
+  was removed at the group's request.** The brief asks for it on every page, so if
+  your lecturer applies the rule strictly, put a short line back in the footer of
+  all five pages before handing in.
+- Payment numbers are still labelled as samples, and `pay.html` still states clearly
+  that payments are not active.
 - The site has no analytics, no cookies, no forms and no tracking. That is why the
   privacy notice is short.

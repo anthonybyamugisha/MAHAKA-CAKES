@@ -63,8 +63,9 @@ Edit the file, then upload the new version with the same name using
 
 ## Remember the rules
 
-- This is a student project. Say so on every page (it is already in the top bar and
-  the footer of all five pages).
+- The brief requires every page to say this is a student project for BUC3106 at
+  MUBS. **That line has been removed from the footer at the group's request.**
+  The warning "payments are not active" still appears on `pay.html`.
 - Never put real passwords, private phone numbers or customer information in these
   files. The site is public and anyone can read the code.
 - Use only images and fonts you made or are allowed to use.

@@ -939,3 +939,48 @@ p { color: var(--brown-soft); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- 24. Social media icons (footer and About page) ---------- */
+.footer-social { margin-top: 22px; }
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social--center { justify-content: center; margin-top: 26px; }
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(227, 194, 126, 0.45);
+  background: rgba(251, 244, 230, 0.06);
+  color: var(--cream);
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--brown);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.social-link svg {
+  width: 19px;
+  height: 19px;
+  fill: currentColor;
+}
+
+/* Keep the icons light inside the dark footer, even though the footer
+   colours its links on hover. */
+.site-footer .social-link { color: var(--cream); }
+.site-footer .social-link:hover,
+.site-footer .social-link:focus-visible { color: var(--brown); }
