@@ -53,20 +53,40 @@
 
   <section class="page-banner">
     <div class="container">
+      <ol class="crumbs">
+        <li><a href="index.html">Home</a></li>
+        <li aria-current="page">Policies</li>
+      </ol>
       <span class="eyebrow">The fine print, in plain language</span>
       <h1>Policies</h1>
       <p>
         Delivery, returns, your privacy and the terms of ordering. We have kept every
         section short and written it the way we would explain it in person.
       </p>
+      <ul class="banner-chips">
+        <li>Delivery</li>
+        <li>Returns &amp; refunds</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+      </ul>
     </div>
   </section>
 
   <section class="section">
-    <div class="container" style="max-width:860px;">
+    <div class="container policy-list" style="max-width:860px;">
+
+      <!-- On-page contents. These are plain anchor links, so no JavaScript. -->
+      <nav class="toc" aria-label="On this page">
+        <a href="#delivery"><strong>Delivery and collection</strong><span>Where we deliver, notice periods and opening hours.</span></a>
+        <a href="#returns"><strong>Returns and refunds</strong><span>Cancelling, problems with a cake and what we cannot refund.</span></a>
+        <a href="#privacy"><strong>Privacy notice</strong><span>What we collect, who sees it and your rights.</span></a>
+        <a href="#terms"><strong>Terms of ordering</strong><span>Prices, confirmation, payment, changes and allergies.</span></a>
+        <a href="#claims"><strong>Our claims and the proof</strong><span>The promises we make, and how we back them up.</span></a>
+        <a href="#reporting"><strong>Fake accounts</strong><span>What to do if someone pretends to be us.</span></a>
+      </nav>
 
       <!-- ============ DELIVERY ============ -->
-      <article class="policy-block" id="delivery">
+      <article class="policy-block reveal" id="delivery">
         <h2>Delivery and collection</h2>
         <p class="policy-meta">Applies to all orders</p>
 
@@ -95,7 +115,7 @@
       </article>
 
       <!-- ============ RETURNS ============ -->
-      <article class="policy-block" id="returns">
+      <article class="policy-block reveal" id="returns">
         <h2>Returns, cancellations and refunds</h2>
         <p class="policy-meta">Because every cake is made to order</p>
 
@@ -121,7 +141,7 @@
       </article>
 
       <!-- ============ PRIVACY ============ -->
-      <article class="policy-block" id="privacy">
+      <article class="policy-block reveal" id="privacy">
         <h2>Privacy notice</h2>
         <p class="policy-meta">Written with Uganda&rsquo;s Data Protection and Privacy Act, 2019 in mind</p>
 
@@ -170,7 +190,7 @@
       </article>
 
       <!-- ============ TERMS ============ -->
-      <article class="policy-block" id="terms">
+      <article class="policy-block reveal" id="terms">
         <h2>Terms of ordering</h2>
         <p class="policy-meta">Short version</p>
 
@@ -181,12 +201,12 @@
           <li><strong>Changes:</strong> tell us as early as possible. Changes after baking has started may not be possible.</li>
           <li><strong>Allergies:</strong> our kitchen handles wheat, eggs, milk and nuts. Tell us before ordering if you have an allergy.</li>
           <li><strong>Photos:</strong> we may photograph a cake for our pages. We will not show your face or name without permission.</li>
-          <li><strong>This website</strong> is a student project for BUC3106 at MUBS. Payments shown are not active.</li>
+          <li><strong>This website</strong> is a student project for BUC3106 at MUBS, built to show how the business sells online.</li>
         </ul>
       </article>
 
       <!-- ============ HONEST CLAIMS ============ -->
-      <article class="policy-block" id="claims">
+      <article class="policy-block reveal" id="claims">
         <h2>Our claims and the proof</h2>
         <p class="policy-meta">We only say what we can show</p>
 
@@ -205,7 +225,7 @@
       </article>
 
       <!-- ============ REPORTING ============ -->
-      <article class="policy-block" id="reporting">
+      <article class="policy-block reveal" id="reporting">
         <h2>If someone pretends to be us</h2>
         <p class="policy-meta">Fake accounts and fake reviews</p>
 
@@ -221,7 +241,7 @@
         </p>
       </article>
 
-      <div class="btn-row">
+      <div class="btn-row reveal">
         <a class="btn btn--primary" href="https://wa.me/256700954642?text=Hello%20MAHACA%2C%20I%20have%20a%20question%20about%20delivery%20or%20an%20order.">Ask us a question</a>
         <a class="btn btn--ghost" href="pay.html">How to pay</a>
       </div>

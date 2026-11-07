@@ -53,12 +53,21 @@
 
   <section class="page-banner">
     <div class="container">
+      <ol class="crumbs">
+        <li><a href="index.html">Home</a></li>
+        <li aria-current="page">How to Pay</li>
+      </ol>
       <span class="eyebrow">Payments</span>
       <h1>How to Pay and Order</h1>
       <p>
         We keep payment simple: mobile money for most customers, bank transfer for
         business orders, and cash on delivery on campus.
       </p>
+      <ul class="banner-chips">
+        <li>Mobile Money</li>
+        <li>Centenary Bank</li>
+        <li>Cash on campus</li>
+      </ul>
     </div>
   </section>
 
@@ -72,7 +81,7 @@
         <p class="lead">Always confirm the order first. We send the exact amount and the payment details in the same WhatsApp chat.</p>
       </div>
 
-      <div class="steps" style="margin-bottom:56px;">
+      <div class="steps reveal" style="margin-bottom:56px;">
         <div class="step">
           <h3>Send your order</h3>
           <p>Message us on WhatsApp with the item code, the date and the message for the cake.</p>
@@ -88,7 +97,7 @@
       </div>
 
       <!-- Prefer to talk? A direct call option using the same number -->
-      <div class="call-box">
+      <div class="call-box reveal">
         <div>
           <h3>Prefer to speak to someone?</h3>
           <p>
@@ -108,8 +117,11 @@
       <div class="pay-grid">
 
         <!-- Method 1: Mobile Money (one number for both networks) -->
-        <article class="pay-card">
+        <article class="pay-card reveal">
           <div class="pay-card__head">
+            <span class="pay-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/><path d="M9.5 7h5"/></svg>
+            </span>
             <h3>Mobile Money Payments</h3>
             <span class="pay-tag">Most common</span>
           </div>
@@ -130,8 +142,11 @@
         </article>
 
         <!-- Method 3: Bank transfer -->
-        <article class="pay-card">
+        <article class="pay-card reveal">
           <div class="pay-card__head">
+            <span class="pay-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3.5 9.5 12 4l8.5 5.5"/><path d="M5 9.5V19h14V9.5"/><path d="M4 19h16"/><path d="M9 19v-5h6v5"/></svg>
+            </span>
             <h3>Bank transfer</h3>
             <span class="pay-tag">Business orders</span>
           </div>
@@ -154,8 +169,11 @@
         </article>
 
         <!-- Method 3: Cash on delivery -->
-        <article class="pay-card pay-card--wide">
+        <article class="pay-card pay-card--wide reveal">
           <div class="pay-card__head">
+            <span class="pay-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2.5" y="6.5" width="19" height="11" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9.5v5M18 9.5v5"/></svg>
+            </span>
             <h3>Cash on delivery</h3>
             <span class="pay-tag">On campus</span>
           </div>
@@ -183,7 +201,7 @@
         <h2>How we confirm a payment</h2>
       </div>
 
-      <div class="split">
+      <div class="split reveal">
         <div class="prose">
           <p>
             <strong>We never accept a screenshot alone as proof of payment.</strong>
@@ -213,7 +231,7 @@
       </div>
 
       <!-- ============ CRYPTOCURRENCY NOTE ============ -->
-      <div class="notice-box" style="background:var(--cream); border-left-color:var(--gold); border-color:var(--gold-light);">
+      <div class="notice-box reveal" style="background:var(--cream); border-left-color:var(--gold); border-color:var(--gold-light);">
         <p style="color:var(--brown-soft);">
           <strong style="color:var(--brown);">We do not accept cryptocurrency.</strong>
           Bank of Uganda does not recognise cryptocurrency as legal tender in Uganda
@@ -223,7 +241,7 @@
         </p>
       </div>
 
-      <div class="btn-row">
+      <div class="btn-row reveal">
         <a class="btn btn--primary" href="https://wa.me/256700954642?text=Hello%20MAHACA%2C%20I%20would%20like%20to%20confirm%20an%20order%20and%20how%20to%20pay.">Start an order on WhatsApp</a>
         <a class="btn btn--ghost" href="policies.html">Read our policies</a>
       </div>
