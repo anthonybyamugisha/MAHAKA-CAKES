@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAHACA Sweet Cakes | Made-to-order cakes at MUBS Jinja Campus</title>
+  <meta name="description" content="MAHACA Sweet Cakes is a student-run bakery making made-to-order celebration cakes for the MUBS Jinja Campus community. Browse the cakes and order on WhatsApp.">
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Fonts: Playfair Display for headings, Lato for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+  <!-- One stylesheet is shared by every page of the site -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+
+<!-- ============ HEADER AND MENU (same on every page) ============ -->
+<header class="site-header">
+  <div class="container">
+
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="images/logo.png" alt="MAHACA Sweet Cakes logo" width="54" height="54">
+      <span>
+        <span class="brand-name">Mahaca</span>
+        <span class="brand-sub">Sweet Cakes</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main menu">
+      <!-- Hidden checkbox: on a phone, tapping the menu button opens the menu.
+           This keeps the site HTML and CSS only, with no JavaScript. -->
+      <input class="menu-toggle" type="checkbox" id="menu-toggle">
+      <label class="menu-btn" for="menu-toggle">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </label>
+
+      <ul class="nav-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="products.html">Our Cakes</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="pay.html">How to Pay</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li class="nav-cta">
+          <a class="btn btn--primary btn--small" href="https://wa.me/256700954642?text=Hello%20MAHACA%20Sweet%20Cakes%2C%20I%20would%20like%20to%20order%20a%20cake.">Order on WhatsApp</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO: big heading, one sentence about us, order button ============ -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <span class="eyebrow">Freshly baked at MUBS Jinja Campus</span>
+        <h1>Cakes worth celebrating, baked on campus.</h1>
+        <p class="lead">
+          MAHACA Sweet Cakes is a student-run bakery making made-to-order cakes for
+          birthdays, meetings and campus celebrations at MUBS Jinja Campus.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="https://wa.me/256700954642?text=Hello%20MAHACA%20Sweet%20Cakes%2C%20I%20would%20like%20to%20order%20a%20cake.">Order on WhatsApp</a>
+          <a class="btn btn--ghost" href="products.html">See the cakes</a>
+        </div>
+      </div>
+
+      <figure class="hero-figure">
+        <!-- Replace images/hero.jpg with a real photo of your cake -->
+        <img src="images/hero.jpg" alt="Illustration of a two-tier celebration cake with chocolate and cream icing" width="1200" height="1500">
+        <figcaption class="hero-badge">Made to order &middot; 24 hours&rsquo; notice</figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- ============ QUICK FACTS STRIP ============ -->
+  <section class="facts" aria-label="At a glance">
+    <div class="container facts-grid">
+      <div class="fact">
+        <strong>Made to order</strong>
+        <span>Baked after you confirm</span>
+      </div>
+      <div class="fact">
+        <strong>UGX 5,000 delivery</strong>
+        <span>Within MUBS Jinja Campus</span>
+      </div>
+      <div class="fact">
+        <strong>Six student bakers</strong>
+        <span>Mebra, Allan, Hazrat, Aisha, Christine &amp; Alvin</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THREE REASONS TO CHOOSE US (required on the home page) ============ -->
+  <section class="section" id="why-us">
+    <div class="container">
+
+      <div class="section-head section-head--center">
+        <span class="eyebrow">Why choose us</span>
+        <h2>Three reasons to order from MAHACA</h2>
+        <p class="lead">Simple cakes, honest prices and delivery you can plan around.</p>
+      </div>
+
+      <div class="reasons">
+
+        <article class="reason">
+          <span class="reason-number">1</span>
+          <h3>Baked to your occasion</h3>
+          <p>
+            Every cake is made after you order, so you choose the size, flavour and
+            message. Nothing sits on a shelf waiting for a customer.
+          </p>
+        </article>
+
+        <article class="reason">
+          <span class="reason-number">2</span>
+          <h3>Clear prices, easy ordering</h3>
+          <p>
+            Prices are shown openly on this site and in our WhatsApp catalogue.
+            You order with one WhatsApp message and get a written confirmation
+            before anything is baked.
+          </p>
+        </article>
+
+        <article class="reason">
+          <span class="reason-number">3</span>
+          <h3>On campus, on time</h3>
+          <p>
+            We deliver within MUBS Jinja Campus for UGX 5,000, or you can collect
+            free. It is built for student budgets and campus timetables.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED CAKES ============ -->
+  <section class="section" id="featured" style="background: rgba(255,255,255,0.5);">
+    <div class="container">
+
+      <div class="section-head">
+        <span class="eyebrow">From our kitchen</span>
+        <h2>Popular cakes this week</h2>
+        <p class="lead">A few favourites from the full range. Every price is in Ugandan shillings.</p>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card">
+          <div class="product-media">
+            <img src="images/product1.jpg" alt="Placeholder photo of the Classic Vanilla Cake" width="1200" height="900" loading="lazy">
+            <span class="product-code">MSC-001</span>
+          </div>
+          <div class="product-body">
+            <h3>Classic Vanilla Cake</h3>
+            <p class="product-size">6-inch round &middot; serves 6&ndash;8</p>
+            <p>Soft vanilla sponge with buttercream and simple piping.</p>
+            <div class="product-foot">
+              <span class="price">UGX 55,000<small>per cake</small></span>
+              <a class="btn btn--gold btn--small" href="https://wa.me/256700954642?text=Hello%20MAHACA%2C%20I%20would%20like%20to%20order%20MSC-001%20Classic%20Vanilla%20Cake.">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-media">
+            <img src="images/product3.jpg" alt="Placeholder photo of the Marble Celebration Cake" width="1200" height="900" loading="lazy">
+            <span class="product-code">MSC-003</span>
+          </div>
+          <div class="product-body">
+            <h3>Marble Celebration Cake</h3>
+            <p class="product-size">8-inch round &middot; serves 12&ndash;15</p>
+            <p>Vanilla and chocolate marble, decorated for the occasion.</p>
+            <div class="product-foot">
+              <span class="price">UGX 80,000<small>per cake</small></span>
+              <a class="btn btn--gold btn--small" href="https://wa.me/256700954642?text=Hello%20MAHACA%2C%20I%20would%20like%20to%20order%20MSC-003%20Marble%20Celebration%20Cake.">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-media">
+            <img src="images/product5.jpg" alt="Placeholder photo of the Custom Theme Cake" width="1200" height="900" loading="lazy">
+            <span class="product-code">MSC-005</span>
+          </div>
+          <div class="product-body">
+            <h3>Custom Theme Cake</h3>
+            <p class="product-size">8-inch round &middot; serves 12&ndash;15</p>
+            <p>Your colours, message and simple theme decoration.</p>
+            <div class="product-foot">
+              <span class="price">UGX 110,000<small>per cake</small></span>
+              <a class="btn btn--gold btn--small" href="https://wa.me/256700954642?text=Hello%20MAHACA%2C%20I%20would%20like%20to%20order%20MSC-005%20Custom%20Theme%20Cake.">Order</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="btn-row">
+        <a class="btn btn--ghost" href="products.html">View all cakes and prices</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ HOW ORDERING WORKS ============ -->
+  <section class="section" id="how-to-order">
+    <div class="container">
+
+      <div class="section-head section-head--center">
+        <span class="eyebrow">Simple from start to finish</span>
+        <h2>How to order</h2>
+        <p class="lead">Three steps, one WhatsApp conversation.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <h3>Choose your cake</h3>
+          <p>Browse the cakes page, or our WhatsApp catalogue, and note the item code.</p>
+        </div>
+        <div class="step">
+          <h3>Message us</h3>
+          <p>Send the code, the date you need it and the message you want on the cake.</p>
+        </div>
+        <div class="step">
+          <h3>Confirm and collect</h3>
+          <p>We confirm the price and time in writing, then you pay and collect or receive delivery.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ BUSINESS / BULK ORDERS ============ -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="bulk-banner">
+        <h2>Ordering for a meeting, club or department?</h2>
+        <p>
+          We take bulk and event orders for class groups, student associations and
+          university departments. Tell us the number of people and the date, and we
+          will quote you in writing.
+        </p>
+        <a class="btn btn--gold" href="https://wa.me/256700954642?text=Hello%20MAHACA%2C%20I%20would%20like%20a%20quote%20for%20a%20bulk%20or%20event%20cake%20order.">Ask for a business quote</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER (same on every page) ============ -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img class="brand-mark" src="images/logo.png" alt="" width="54" height="54">
+          <span>
+            <span class="brand-name">Mahaca</span>
+            <span class="brand-sub">Sweet Cakes</span>
+          </span>
+        </a>
+        <p>Made-to-order celebration cakes for the MUBS Jinja Campus community. Bake. Celebrate. Enjoy.</p>
+      </div>
+
+      <div>
+        <h4>Pages</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Our Cakes</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="pay.html">How to Pay</a></li>
+          <li><a href="policies.html">Policies</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <!-- Business WhatsApp number. Replace here and in the footer of every page if it changes. -->
+          <li>WhatsApp: <a href="https://wa.me/256700954642?text=Hello%20MAHACA%20Sweet%20Cakes%2C%20I%20would%20like%20to%20ask%20about%20an%20order.">+256 700 954 642</a></li>
+          <li>Email: <a href="mailto:mahacasweetcakes@gmail.com">mahacasweetcakes@gmail.com</a></li>
+          <li>MUBS Jinja Campus, Jinja, Uganda</li>
+          <li>Mon&ndash;Sat, 8:00 am &ndash; 7:00 pm</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 MAHACA Sweet Cakes</span>
+      <span><strong>Student project for BUC3106 at MUBS.</strong> Payment details shown are samples. Payments are not active.</span>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
