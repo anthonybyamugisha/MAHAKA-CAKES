@@ -732,6 +732,25 @@ p { color: var(--brown-soft); }
 }
 .pay-details dd:last-child { margin-bottom: 0; }
 
+/* A direct call option next to the payment methods */
+.call-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px 26px;
+  background: var(--cream-deep);
+  border: 1px solid var(--gold-light);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  margin-bottom: 56px;
+}
+
+.call-box h3 { margin-bottom: 6px; }
+.call-box p { margin: 0; max-width: 62ch; }
+.call-box > div { flex: 1 1 420px; min-width: 0; }
+.call-box .btn { white-space: nowrap; flex-shrink: 0; }
+
 .sample {
   display: inline-block;
   font-size: 0.6rem;
@@ -875,6 +894,7 @@ p { color: var(--brown-soft); }
   .facts-grid { grid-template-columns: repeat(3, 1fr); }
   .product-grid { grid-template-columns: repeat(2, 1fr); }
   .pay-grid { grid-template-columns: repeat(2, 1fr); }
+  .pay-card--wide { grid-column: 1 / -1; }
   .footer-bottom { flex-direction: row; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; text-align: left; }
 }
 

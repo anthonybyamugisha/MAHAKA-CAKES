@@ -25,11 +25,12 @@ made with the group email.
 
 ## 2b. Payment details - real, updated by the group
 
-`pay.html` now shows:
+`pay.html` now shows **three** methods:
 
-- **MTN Mobile Money: 0769 864 032**
-- **Airtel Money: 0700 954 642** (the same line as the WhatsApp number)
+- **Mobile Money Payments: 0700 954 642** - one number for both MTN and Airtel
+  customers. (The separate MTN line `0769 864 032` was removed from the site.)
 - **Bank:** Centenary Bank, account name MAHACA SWEET CAKES, account **3204792754**
+- **Cash on delivery** on campus
 
 There are no SAMPLE labels any more, at the group's request. Note that the brief asks
 for sample numbers and a "payments are not active" note, so if your lecturer applies
